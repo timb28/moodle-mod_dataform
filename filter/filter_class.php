@@ -967,7 +967,7 @@ class dataform_filter_manager {
                     }
                 } else if ($filter->search) {
                     $searchoptions =  $filter->search;
-                    $searchurlquery = '&usearch='. urlendcode($filter->search);
+                    $searchurlquery = '&usearch='. urlencode($filter->search);
                 }
                 
             }         
